@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(red, yellow);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.246);
+    width: fit-content;
+    margin: auto ;
+    padding: 15px;
+    border-radius: 25px;
+    
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background: #000;
+    margin: 4px;
+    font-weight: 600;
+    height: 50px;
+   width: 50px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px white;
+   cursor: pointer;
+}
+.row :first-child{
+    margin-bottom: 10px;
+
+}
+.display{
+    text-align: right;
+    padding: 10px;
+    width:16vw;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid white;
+    background-color: rgba(128, 128, 128, 0.42);
+    color: white;
+    font-size: 19px;
+}
+.btn-c-ac{
+
+width:fit-content;
+padding: 10px;
+}
+.row-c-ac{
+    display: flex;
+   
+
+}
+footer {
+    display: flex;
+    background:black;
+   
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    border-top: 1px solid white;
+   margin:auto;
+   padding:5px;
+   justify-content:center;
+    color: white;
+  font-family: 'Irish Grover', cursive;
+   letter-spacing: 2px;
+  }
+
+@media (min-width:200px)and (max-width:800px){
+    .btn{
+       font-size: 40px;
+       width:80px;
+      padding:2px;
+      margin:5px;
+     
+      
+    }
+    .display{
+        width: 75vw;
+    }
+    .btn-c-ac{
+        width: fit-content;
+        font-size: 25px;
+        padding:0 30px;
+        
+        
+    }
+    .row-c-ac{
+        display: flex;
+        align-items: center;
+    }
+}
